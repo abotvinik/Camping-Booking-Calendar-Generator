@@ -99,6 +99,7 @@ def main():
             event.add('dtend', back_date + datetime.timedelta(1))
             event.add('description', 'Date to Book Camping for ' + book_date.strftime('%m/%d/%Y'))
             event.add('location', 'Online')
+            event.add('transp', 'TRANSPARENT')
 
             alarm_disp_1 = Alarm()
             alarm_disp_1.add('action', 'display')
